@@ -48,14 +48,50 @@
 
 # EX 6
 
-def power(base, exp):
-    return base ** exp
+# def power(base, exp):
+#     return base ** exp
 
-num1 = int(input(f"EX 6: Enter first number: "))
-num2 = int(input(f"EX 6: Enter second number: "))
+# num1 = int(input(f"EX 6: Enter first number: "))
+# num2 = int(input(f"EX 6: Enter second number: "))
 
-res = power(num1, num2)
-print(f"EX 6: {num1} ** {num2} = {res}")
+# res = power(num1, num2)
+# print(f"EX 6: {num1} ** {num2} = {res}")
 
 # EX 7
 
+# def average(*numbers):
+#     result = sum(numbers) / len(numbers)
+#     return result
+# print(f"EX 8: {average(1,2,3,4,5,6,7,8,9,10)}")
+
+# EX 8
+
+# def is_palindrome(word):
+#     reverse = word[::-1]
+#     if reverse == word:
+#         print(f"EX 8: {reverse}")
+#     else:
+#         print(f"EX 8: This not a palindrome!")
+# w_i = input(f"EX 8: Enter any word for test on palindrome: ")
+# is_palindrome(w_i)
+
+# EX 9
+
+# import math
+
+# def is_fibonacci(n):
+#     def is_perfect_square(x):
+#         s = int(math.isqrt(x))
+#         return s * s == x
+    
+#     return is_perfect_square(5*n*n + 4) or is_perfect_square(5*n*n - 4)
+
+# print(is_fibonacci(6))
+
+# EX 10
+
+def squares(n):
+    num_list = []
+    for i in range(1,n):
+        return i**2
+    print()
