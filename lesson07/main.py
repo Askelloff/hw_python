@@ -109,6 +109,6 @@ info_person = {
 } 
 
 def print_person_info(**kwargs):
-    return f"EX 13: Name: {kwargs["name"]}\n       Age: {kwargs["age"]}\n       City: {kwargs["city"]}"
+    return f"EX 13: Name: {kwargs["name"]}\n       Age: {kwargs["age"]}\n       : {kwargs["city"]}"
 
 print(print_person_info(**info_person))
